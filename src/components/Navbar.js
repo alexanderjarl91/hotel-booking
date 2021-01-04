@@ -30,6 +30,12 @@ const Navbar = () => {
                 <li>
                     <Link to="/rooms">Rooms</Link>
                 </li>
+                <li>
+                    <Link to="/">About</Link>
+                </li>
+                <li>
+                    <Link to="/">Contact</Link>
+                </li>
 
             </ul>
         </div>

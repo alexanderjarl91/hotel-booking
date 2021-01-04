@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
 import { FaRProject } from "react-icons/fa";
+import FeaturedRooms from "../components/FeaturedRooms";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         </Banner>
       </Hero>
       <Services />
+      <FeaturedRooms />
     </>
   );
 };
