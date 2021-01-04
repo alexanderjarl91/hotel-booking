@@ -9,7 +9,8 @@ export default class Services extends Component {
       {
         icon: <FaCocktail />,
         title: "Free Cocktails",
-        info: "lasdioasdfhoa´sdf",
+        info:
+          "Every guest gets a complimentary cocktail upon arrival. We also have alcohol free drinks.",
       },
       {
         icon: <FaHiking />,
@@ -19,13 +20,13 @@ export default class Services extends Component {
       {
         icon: <FaShuttleVan />,
         title: "Free shuttles",
-        info: "We offer free shuttles downtown at 9PM every evening",
+        info: "We offer free shuttles downtown at 9PM every evening.",
       },
       {
         icon: <FaBeer />,
         title: "Huge Beer Selection",
         info:
-          "Our bar has a very large selection of beers brewed here in Iceland",
+          "Our bar has a very large selection of beers brewed here in Iceland.",
       },
     ],
   };

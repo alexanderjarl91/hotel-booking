@@ -17,7 +17,6 @@ export default function RoomsContainer() {
         } else {
           return (
             <>
-              hello from rooms container
               <RoomsFilter rooms={rooms} />
               <RoomList rooms={sortedRooms} />
             </>

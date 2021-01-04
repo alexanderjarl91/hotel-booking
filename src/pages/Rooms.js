@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 const Rooms = () => {
   return (
     <>
-      <Hero hero="roomsHero">
-        <Banner title="Our Rooms">
+      {/* <Hero hero="roomsHero">
+        <Banner title="Our Rooms" subtitle="See our selection of rooms below">
           <Link to="/" className="btn-primary">
             Return Home
           </Link>
         </Banner>
-      </Hero>
+      </Hero> */}
       <RoomsContainer />
     </>
   );

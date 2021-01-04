@@ -13,8 +13,8 @@
   --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.3);
+  --darkShadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.3);
 }
 /* globals */
 body {
@@ -22,6 +22,7 @@ body {
   color: var(--mainBlack);
   background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Tahoma;
   line-height: 1.4;
 }
 h1 {
@@ -167,8 +168,8 @@ h6 {
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
-  min-height: 60vh;
+  background-image: url("https://www.designgroupitalia.com/dgiuploads/2019/04/The-Retreat-at-Blue-Lagoon-Iceland-02-1920x1264.jpg");
+  min-height: 90vh;
 }
 /* End of Hero */
 /* Banner */
@@ -279,7 +280,7 @@ h6 {
 /* featured rooms */
 
 .featured-rooms {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .featured-rooms-center {
   width: 80vw;
@@ -306,6 +307,7 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  border-radius: 25px;
 }
 .room:hover {
   box-shadow: var(--darkShadow);
@@ -318,12 +320,14 @@ h6 {
   width: 100%;
   display: block;
   transition: var(--mainTransition);
+  border-radius: 25px 25px 0px 0px;
 }
 .price-top {
   position: absolute;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
+  background: var(--primaryColor);
   color: var(--mainWhite);
   padding: 0.3rem 0.6rem 0.5rem;
   border-bottom-right-radius: 1rem;
@@ -358,11 +362,13 @@ h6 {
 }
 .room-info {
   background: var(--darkGrey);
+  background: white;
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
+  border-radius: 25px;
 }
 /* end of room  */
 /* single room*/
@@ -467,7 +473,7 @@ h6 {
 /* end of roomlist */
 /*  rooms fitler*/
 .filter-container {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 .filter-form {
   width: 60vw;

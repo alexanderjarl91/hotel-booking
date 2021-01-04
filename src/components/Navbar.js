@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../images/logo.svg";
+import logo from "../images/logo2.svg";
 import { FaAlignRight } from "react-icons/fa";
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <Link to="/rooms">Rooms</Link>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
                     <Link to="/">Contact</Link>
